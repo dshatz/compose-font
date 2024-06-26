@@ -10,6 +10,16 @@ Make loading differently weighted fonts from one .ttf file easier. Hopefully thi
  - JVM
  - Android
 
+## Usage
+![maven](https://maven-badges.herokuapp.com/maven-central/com.dshatz.compose-mpp/compose-font/badge.svg?style=flat)
+```kotlin
+val commonMain by getting {
+  dependencies {
+    implementation("com.dshatz.compose-mpp:compose-font:<version>")
+  }
+}
+```
+
 ## Implementation notes
 ### JVM
 On JVM, jetbrains skia api is used.
